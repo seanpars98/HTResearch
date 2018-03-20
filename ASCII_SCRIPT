@@ -1,0 +1,1 @@
+perl -pi.bak -e 's/[\000-\007\013-\037\177-\377]//g;' -i FILE_NAME.csv
